@@ -283,6 +283,14 @@ footer {text-align: center;
 font-size: 50px;
 background-color: #666;} 
 */
+@media (max-width: 1050px) {
+    .inner-header{
+        margin: 0 0 0 7em;
+    }
+    .navigation{
+        margin: 0 13em 0 0;
+    }
+ 
 
 @media (max-width: 980px) {
     .inner-header{
@@ -291,10 +299,11 @@ background-color: #666;}
     .navigation{
         margin: 0 13em 0 0;
     }
-    .grid {
+
+    .grid{
         display: block;
-      }
     }
+}
     
     @media (max-width: 768px) {
         .inner-header{
